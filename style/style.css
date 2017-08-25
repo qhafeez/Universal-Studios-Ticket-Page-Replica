@@ -1,0 +1,773 @@
+body{
+  box-sizing:border-box;
+
+}
+
+header{
+  height:60px;
+  background-color: #036CE2;
+
+}
+
+header h1{
+  padding-top:0;
+  padding-bottom:0;
+  padding-left:15px;
+  padding-right:20px;
+  margin:0;
+ 
+  float:left;
+}
+
+header h1 img{
+  float:left;
+  height:60px;
+  width:auto;
+}
+
+.desktop-header{
+  
+  width:200px;
+  height:inherit;
+  display: inline-block;
+  padding-top:10px;
+  display:none;
+}
+
+.active{
+  background-color: #162b75;
+}
+
+.extra{
+  background:linear-gradient(to right,#004da4,#036ce2)
+}
+
+.checkout{
+  background:linear-gradient(to right,#004da4,#036ce2);
+}
+
+.desktop-header p{
+  padding-left: 10px;
+  padding-top: 22px;
+  padding-bottom:22px;
+  color:white;
+  font-weight:900;
+  font-size:19px;
+}
+
+.icon{
+  font-size: 30px;
+  
+  color:white;
+  padding:15px;
+ }
+
+.cart-container{
+ 
+  text-align: center;
+
+}
+.myCart{
+  color:white;
+  font-size: 20px;
+  font-weight:900;
+  display: none;
+}
+
+ @media screen and (min-width:993px){
+  header{
+    height:90px;
+  }
+
+  header h1 img{
+    height:90px;
+    width: auto;
+  }
+
+  .cart-container{
+     padding-left: 15px;
+  padding-right: 15px;
+  }
+
+  .myCart{
+    display:block;
+  }
+
+  #hamburger{
+
+    display:none;
+    
+ }
+
+ .desktop-header{
+  display:inline-block;
+ }
+
+ }
+
+#ticketHeader{
+  background-color: #EAEBEC;
+  height:60px;
+}
+
+#ticketInner{
+  width:95%;
+  margin:0 auto;
+}
+
+#ticketInner h1{
+  padding-top: 15px;
+  font-size: 20px;
+  margin:0;
+  font-weight:900;
+  text-transform:uppercase;
+  font-family:Gotham A,Gotham B,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+
+.filter-row{
+  
+  padding-right:42px;
+  padding-left:42px;
+  padding-top:18px;
+  padding-bottom:20px;
+}
+
+.filter-menu{
+  display:inline;
+  font-size: 1.25em;
+}
+
+.chevron{
+  color:#036CE2;
+}
+
+.promoSection{
+   padding-left: 42px;
+  padding-right:42px;
+   background-color: #EAEBEC;
+}
+
+.promoSection:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.promo{
+ 
+  padding-top:30px;
+  padding-bottom: 30px;
+  
+}
+
+.promo h2{
+  font-weight: 900;
+  margin:0;
+}
+
+.promo p{
+  font-weight:400;
+}
+
+.ticketChoice{
+  height:587px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  padding:0;
+  width:320px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 20px;
+  
+}
+
+.promoContainer{
+  padding:0;
+}
+
+.ticketParks hr{
+  display:block;
+  background-color: #dbdbdb;
+  height:2px;
+  border:0;
+
+}
+
+.ticketTitle{
+  height:22%;
+  background-color: #036CE2;
+  color:white;
+  padding:18px ;
+  position:relative;
+}
+
+.ticketInfo{
+  background-color: white;
+  height:78%;
+  padding-left: 20px;
+  padding-right:20px;
+  
+}
+
+.titleWrapper{
+  
+  text-align: center;
+
+}
+
+.button{
+  width:100%;
+}
+
+.button button{
+  width:100%;
+  font-size: 20px;
+}
+
+.ticketDays{
+  margin-bottom: 0;
+}
+
+.parksTitle{
+  font-size:1.25em;
+  margin-top:0;
+  font-weight:900;
+  line-height:1.5em;
+}
+
+.ticketType{
+  margin-bottom: 20px;
+}
+
+.ticketType h3{
+  margin:0;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:1.25em;
+
+}
+
+.input{
+  display:inline-block;
+  width:55%;
+  
+  position:relative;
+
+}
+
+.input span{
+  width:76%;
+  display: inline-block;
+  float:right;
+}
+
+.radio{
+  background-color: transparent;
+  display: inline-block;
+  border:none;
+  
+  position:absolute;
+}
+
+.radio:hover{
+  background-color: transparent;
+}
+
+.radio:active{
+  background-color: transparent;
+}
+
+input[type=radio]{
+display: inline-block;
+ width:auto;
+  background-color: transparent;
+  position:absolute;
+  left:25px;
+  
+}
+
+input[type=radio]:hover{
+
+}
+
+.price{
+  display:inline-block;
+  width:43%;
+  text-align: right;
+}
+
+span.bold{
+  font-size: 1.475em;
+  font-weight: 700;
+}
+
+.adult-price{
+  display:block;
+
+}
+
+.perAdult{
+  font-size: 0.95em;
+  display:block;
+}
+.perChild{
+  font-size:0.9em;
+  display: block;
+  color: #a7a7a7;
+}
+.hogwartWrapper{
+  height:75px;
+  background-color: #EEEEEE;
+}
+
+.imgWrapper{
+  height:inherit;
+  display:inline-block;
+  overflow: hidden;
+  float:left;
+}
+
+.hogwartDesc{
+  margin:0;
+  padding:8px;
+  float:left;
+  font-size:0.75em;
+  width:66%;
+  
+}
+
+.addDay{
+  background-color: #172a76;
+}
+
+.addDayContainer{
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size: 0.85em;
+  line-height:1.65em;
+}
+
+.ticketInfoCont{
+  position:relative;
+  height:100%;
+}
+.displayBottom{
+  position:absolute;
+  bottom:1.5em;
+
+}
+
+.displayBottomRight{
+  position:absolute;
+  right:0;
+  bottom:6.5em;
+}
+
+
+
+.aside{
+  height:88px;
+  width:95%;
+  background-color: #1C2399;
+  padding-top:13px;
+  padding-bottom:13px;
+  display: table;
+  background: linear-gradient(rgb(53, 84, 164), rgb(27, 32, 152));
+}
+
+.asideImgCont{
+  padding-right:20px;
+  padding-left:20px;
+  width:103px;
+ display: table-cell;
+
+}
+
+@media screen and (max-width:450px){
+  .asideImgCont{
+    display:none;
+  }
+  .aside {
+    padding: 22px 16px;
+  }
+}
+
+
+.asideImgCont img {
+  width:100%;
+  height:auto;
+}
+
+.asidePromoInfoContainer{
+  display:table-cell;
+  height:100%;
+  padding:0 !important;
+  
+}
+
+.asidePromoContent{
+  width:90%;
+  color:white;
+
+}
+
+.asidePromoContent h4{
+  margin:0;
+  font-size: 2em;
+  font-weight:900;
+}
+
+.asidePromoContent p{
+  padding-top:16px;
+  font-weight:200;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.nxtBtnCont {
+  padding-top:20px;
+  margin-bottom: 20px;
+  width:100%;
+}
+
+.nxtBtn{
+  background-color: #036ce2;
+  color:white;
+  float:right;
+}
+
+.footer-inner::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-inner{
+  margin-right:15px;
+  margin-left:15px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.footer-menu-primary{
+  padding:0;
+}
+
+.footer-menu-primary li{
+  list-style: none;
+  float:left;
+  color:#036ce2;
+  font-size:20px;
+  margin-right: 30px;
+}
+
+.additional-details{
+  float:left;
+}
+
+.additional-details p {
+  margin:0;
+  padding:0;
+
+}
+
+.footer-section{
+  float:left;
+  padding-top:30px;
+  width:100%;
+}
+
+.footerList {
+  padding:0;
+}
+
+.footerList li{
+  list-style: none;
+  margin-top:15px;
+  color:#036ce2;
+}
+
+footer::after {
+
+  height:40px;
+  width:100%;
+  background-color: #036ce2;
+}
+
+
+.park-filter-wrapper{
+  text-align:center;
+  width:100%;
+}
+
+.day-select-wrapper{
+  padding-top: 20px;
+  padding-bottom:20px;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.day-select-heading{
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+.day-cell{
+  height:50px;
+  width:50px;
+  display: inline-block;
+  margin-right:4px;
+
+}
+
+.day-cell label{
+  height:50px;
+  width:50px;
+  vertical-align: middle;
+  line-height: 35px;
+  
+}
+
+.ui-checkboxradio-radio-label{
+  border:1px solid #a7a7a7;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+  background-color: white;
+  background-image:none;
+}
+
+.day-cell label.ui-button:hover{
+  background-color: white;
+  background-image:none;
+}
+
+.day-cell label.ui-state-active, .day-cell label.ui-state-active:hover{
+  background-color: #162b75;
+  background-image:none;
+  color:white;
+}
+
+.number-guests-heading{
+  margin-bottom:20px;
+  font-size:1.25em;
+}
+
+.number-guests-wrapper{
+  padding-top: 20px;
+  padding-bottom:20px;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.number-picker-grid{
+  width:290px;
+  margin:0 auto;
+  
+
+}
+
+.number-picker-wrapper{
+  height:32px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width:993px){
+  .number-picker-wrapper{
+    display: inline-block;
+    width:45%;
+    height: auto;
+  }
+
+  .number-picker-wrapper label{
+    display: block;
+
+  }
+
+  .number-input{
+    display: block;
+    float:left !important;
+  }
+
+
+  .day-select-wrapper, .number-guests-wrapper{
+    border-bottom: 0;
+  }
+}
+
+
+.number-picker-wrapper label{
+  float:left;
+}
+
+.number-input{
+  float:right;
+}
+
+.number-increment{
+  font-size:25px;
+  border-radius:100%;
+  height:25px;
+  width:25px;
+  border:3px solid #d2d1d3;
+  display: inline-block;
+  position:relative;
+  vertical-align: middle;
+  box-sizing:content-box;
+}
+
+.number-decrease{
+  position:absolute;
+  display: block;
+  top:-7px;
+  left:8px;
+  height: 10px;
+  color:#d2d1d3; 
+  cursor:pointer;
+
+}
+
+.number-increase{
+  position:absolute;
+  display: block;
+  top:-8px;
+  left:5px;
+  height: 10px;
+  color:#d2d1d3; 
+  cursor:pointer;
+}
+
+.number-picker-label{
+  position: relative;
+    font-size: 2.25rem;
+    color: #036ce2;
+    text-align: center;
+    font-weight: 700;
+    width: 3.125rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.florida-resident-heading{
+  font-size: 1.25em;
+  margin-bottom:20px;
+}
+
+.florida-resident-wrapper{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.resButton{
+  width:150px;
+}
+
+.fl-radio{
+  display:inline-block;
+}
+
+.fl-radio:nth-child(2){
+  margin-left: 20px;
+}
+
+.fl-radio label{
+  width:150px;
+  height:50px;
+  line-height:1.5;
+  font-size:1.5em;
+
+
+}
+
+@media screen and (max-width:380px){
+  .fl-radio label{
+    width:120px;
+  }
+
+  .ticketChoice{
+    width:100%;
+  }
+}
+
+.fl-radio label.ui-button:hover{
+  background-color: white;
+  background-image:none;
+}
+
+.fl-radio label.ui-state-active, .fl-radio label.ui-state-active:hover{
+  background-color: #162b75;
+  background-image:none;
+  color:white;
+}
+
+.glyphicon-chevron-up{
+  display: none;
+}
+
+.learn{
+  background-color: #036ce2;
+  color: white;
+}
+
+.fl-resident-icon{
+  position: absolute;
+  width:70px;
+  height:70px;
+  border-radius: 100%;
+  background-color: #036ce2;
+  border:solid 2px white;
+  right:20px;
+  bottom:-30px;
+  padding-top: 15px;
+  padding-left:5px;
+  font-size: .9em;
+  display: none;
+}
+
+
+@media screen and (min-width:992px){
+  .footerList li{
+      display: inline-block;
+      margin-right: 10px;
+  }
+
+  .chevronWrapper{
+    display: none;
+  }
+
+  .park-filter-wrapper{
+    display: block;
+  }
+
+}
+
+.ticket{
+  display:none;
+  margin-bottom: 60px;
+}
+
+/*@media(screen and (max-width:400px){
+  .ticket{
+    width:320px;
+  }
+}*/
+.suggestion{
+  display:none;
+}
+
+input[type=radio][name=florida][disabled]{
+  opacity: 0.3;
+  cursor: default;
+}
+
+.florida-resident-wrapper[disabled]{
+  opacity:0.3;
+  cursor:default;
+}
+
+
+
+
+
+
+
+
+
+
